@@ -1,8 +1,72 @@
 body {
-    background-color: rgba(248, 41, 93, 0.979);
+    background-color: rgba(219, 173, 173, 0.979);
+    
+}
+/* Menu bar */
+.wrapper {
+    width: 1300px;
+    padding-left:150px;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    background: #e29292;
+    border-radius: 10px;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration:line-through;
+
 }
 
 /* Icon */
+
+/* .arrow-back{
+    background-color: rgb(241, 224, 224);
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.arrow-back {
+    background-color:  rgb(241, 224, 224);;
+  } */
 .btn {
     background-color: black; 
     color: white; 
@@ -19,7 +83,7 @@ body {
   }
 
   .awalan{
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     color: white;
   }
@@ -27,7 +91,7 @@ body {
 
 .about-me {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(241, 224, 224);
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -58,7 +122,7 @@ body {
 
 .project {
   
-    background-color: white;
+    background-color: rgb(241, 224, 224);
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -70,7 +134,7 @@ body {
 }
 
 .project img {
-   padding-left: 30px;
+   width: 250px;
     border-radius: 10px;
     height: 200px;
     
@@ -92,7 +156,7 @@ body {
 
 .social {
   
-    background-color: white;
+    background-color: rgb(241, 224, 224);
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -122,7 +186,7 @@ body {
 
 .education {
   
-    background-color: white;
+    background-color: rgb(241, 224, 224);
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -136,9 +200,10 @@ body {
 .education img {
     border-radius: 10px;
     height: 300px;
-    width: 400px;
+    width: 330px;
     box-shadow: 0 3px 5px black;
     margin-right: 20px;
+    
 }
 
 .education h1 {
@@ -152,7 +217,7 @@ body {
 
 .contact {
   
-    background-color: white;
+    background-color: rgb(241, 224, 224);
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -184,7 +249,7 @@ body {
    
     border-radius: 5px;
     
-    background-color: white;
+    background-color: rgb(241, 224, 224);
     padding: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
