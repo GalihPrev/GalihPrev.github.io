@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(221, 221, 221);
+    padding: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: inset;
+}
