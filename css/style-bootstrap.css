@@ -1,0 +1,25 @@
+.profile{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.name-title{
+    font-family: 'Noto Serif Telugu', serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.sub-title{
+    font-family: 'Noto Serif Telugu', serif;
+    letter-spacing: 10px;
+}
+#hero{
+    height: 95vh;
+}
+.text-about{
+    text-indent: 40;
+    text-align: justify;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}

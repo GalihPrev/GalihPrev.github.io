@@ -1,0 +1,13 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+#about-me{
+    font-size: large;
+}
+
+.education-card{
+    width: 50;
+    height: 50;
+}
